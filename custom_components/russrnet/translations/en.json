@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Russound CAM6.6",
+        "description": "Enter the address of your RS-232 to TCP bridge.",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        },
+        "data_description": {
+          "host": "IP address of the serial-to-TCP bridge (e.g. USR device)",
+          "port": "TCP port the bridge listens on"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Check the IP address and port, and make sure the bridge is powered on."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  }
+}
